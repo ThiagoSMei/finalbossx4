@@ -1,0 +1,124 @@
+/* Navbar */
+
+.navbar {
+    padding-left: 15px;
+    background-color: #222222;
+ }
+ 
+ .nav-link, .navbar-brand {
+     color: white;
+ }
+ 
+ .nav-link:hover, .navbar-brand:hover {
+     color: red;
+ 
+ }
+ 
+ .dark-theme, .light-theme {
+     margin-left: 7px;
+     border-color: #9b9b9b;
+     border-width: 2px;
+ }
+
+ /* Dark/Light mode System */
+
+.dark-mode {
+    background-color: #303030;
+    color: white;
+  }
+
+.light-mode {
+    background-color: rgb(214, 214, 214);
+    color: black;
+  }
+
+/* Body */
+
+body {
+    background-image: url(../imagens/sonicadventure/mystic-ruins.jpg);
+    background-size: cover;
+    background-position: center, top right, center center;
+    background-repeat: repeat-y, no-repeat, repeat;
+    background-attachment: fixed, scroll, fixed;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    justify-self: center;
+    margin: 3px 30px 3px 30px;
+    text-indent: 2ch;
+    
+}
+
+.menuimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    width: 60%;
+    padding-bottom: 5px;
+}
+
+.stageprint {  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-bottom: 15px;
+}
+
+/* Cards */
+
+.card {
+    background: none;
+    border: none;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.card-img-select {
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 7px;
+}
+
+#bottomcard-div {
+    background: none;
+    justify-content: space-around;
+    padding-bottom: 25px;
+  }
+
+.bottom-card {
+    background: #314dca;
+    border-radius: 15px;
+    border: 0;
+    margin: 15px 20px 0 0;
+ }
+
+.bottomcard-a {
+    border: 0;
+}
+
+.bottom-card-h {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.card-img-md3 {
+    width: 100%;
+    margin-top: -6px;
+
+}
+
+.tikal-div {
+    justify-content: center;
+}

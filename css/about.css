@@ -1,0 +1,92 @@
+/* Navbar */
+
+.navbar {
+    padding-left: 15px;
+    background-color: #222222;
+ }
+ 
+ .nav-link, .navbar-brand {
+     color: white;
+ }
+ 
+ .nav-link:hover, .navbar-brand:hover {
+     color: red;
+ 
+ }
+ 
+ .dark-theme, .light-theme {
+     margin-left: 7px;
+     border-color: #9b9b9b;
+     border-width: 2px;
+ }
+
+ /* Dark/Light mode System */
+
+.dark-mode {
+    background-color: #303030;
+    color: white;
+  }
+
+.light-mode {
+    background-color: rgb(214, 214, 214);
+    color: black;
+  }
+
+/* Body */
+
+body {
+    background-image: url(../imagens/non-game/games-background.jpg);
+    background-size: cover;
+    background-position: center, top right, center center;
+    background-repeat: repeat-y, no-repeat, repeat;
+    background-attachment: fixed, scroll, fixed;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    justify-self: center;
+    
+}
+
+/* Cards */
+
+.card {
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 0;
+    background-color: #9b2e2e;
+    text-align: center;
+}
+
+.card-img-md6, .card-img-md4 {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-top: -7px;
+
+}
+
+h4 {
+    text-align: center;
+    
+}
+
+#first-div {
+    justify-content: center;
+}
+
+#second-div {
+    justify-content: center;
+}
