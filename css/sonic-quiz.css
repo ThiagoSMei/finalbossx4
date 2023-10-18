@@ -1,0 +1,164 @@
+ /* Body */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagens/sonicadventure/sadx-logo.jpg);
+    background-size: cover;
+    background-position: center, top right, center center;
+    background-repeat: repeat-y, no-repeat, repeat;
+    background-attachment: fixed, scroll, fixed;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    text-align: center;
+}
+
+#main-sec {
+    padding: 5vh;
+}
+
+.container-one {
+    background: none;
+    width: 90%;
+    max-width: 900px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.question {
+    font-size: 22px;
+}
+
+.answers-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px
+}
+
+.next-question {
+    margin-top: 25px;
+}
+
+.btn-quiz {
+    cursor: pointer;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn-quiz:not(:disabled):hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+
+.hide {
+    display: none;
+}
+
+.correct {
+    background-color: rgb(30, 165, 30);
+}
+
+.incorrect {
+    background-color: rgb(179, 19, 19);
+}
+
+.answer:disabled {
+    cursor: not-allowed;
+}
+
+/* Navbar */
+
+.navbar {
+    padding-left: 15px;
+    background-color: #222222;
+ }
+ 
+ .nav-link, .navbar-brand {
+     color: white;
+ }
+ 
+ .nav-link:hover, .navbar-brand:hover {
+     color: red;
+ 
+ }
+ 
+ .dark-theme, .light-theme {
+     margin-left: 7px;
+     border-color: #9b9b9b;
+     border-width: 2px;
+ }
+
+/* Bottom */
+
+.card {
+    background: none;
+    border: none;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#bottomcard-div {
+    background: none;
+    justify-content: space-around;
+    padding-bottom: 25px;
+  }
+
+.bottom-card {
+    background: #0fac8a;
+    border-radius: 15px;
+    border: 0;
+    margin: 15px 20px 0 0;
+ }
+
+.bottomcard-a {
+    border: 0;
+}
+
+.bottom-card-h {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.card-img-md5 {
+    width: 100%;
+    margin-top: -6px;
+
+}
+
+/* Dark/Light mode System */
+
+.dark-mode {
+    background-color: #303030;
+    color: white;
+  }
+
+.light-mode {
+    background-color: rgb(214, 214, 214);
+    color: black;
+  }
